@@ -41,9 +41,6 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("LastModified")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<Guid>("MakeId")
-                        .HasColumnType("uuid");
-
                     b.Property<Guid>("MarkId")
                         .HasColumnType("uuid");
 

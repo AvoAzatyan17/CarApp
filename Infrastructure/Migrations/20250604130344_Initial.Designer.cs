@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250603143141_Initial")]
+    [Migration("20250604130344_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -43,9 +43,6 @@ namespace Infrastructure.Migrations
 
                     b.Property<DateTime>("LastModified")
                         .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid>("MakeId")
-                        .HasColumnType("uuid");
 
                     b.Property<Guid>("MarkId")
                         .HasColumnType("uuid");
