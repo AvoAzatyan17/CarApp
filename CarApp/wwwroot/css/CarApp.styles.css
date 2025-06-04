@@ -1,0 +1,48 @@
+body {
+    min-height: 80vh;
+    padding-top: 56px; /* height of fixed navbar */
+    overflow-x: hidden;
+}
+
+/* Sidebar */
+#sidebarMenu {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    top: 56px; /* height of navbar */
+    bottom: 0;
+    left: 0;
+    padding-top: 1rem;
+    overflow-y: auto;
+    transition: all 0.3s;
+    z-index: 1000;
+}
+
+#sidebarMenu .nav-link {
+    color: #adb5bd;
+}
+
+#sidebarMenu .nav-link.active {
+    color: #fff;
+    background-color: #495057;
+    font-weight: 600;
+}
+
+#sidebarMenu .nav-link:hover {
+    color: white;
+    background-color: #495057;
+}
+
+/* Content area */
+main {
+    margin-left: 250px;
+    padding: 2rem 1.5rem;
+    transition: margin-left 0.3s;
+}
+
+/* Toggle button styles */
+.navbar-toggler-icon {
+    filter: invert(1);
+}

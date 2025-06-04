@@ -1,0 +1,43 @@
+@page
+@model CarApp.Pages.Car.Index
+
+@{
+    ViewData["Title"] = "Car List";
+    Layout = "Shared/_Layout";
+}
+
+<div class="container-fluid px-4">
+    <div class="d-flex justify-content-between align-items-center mt-4 mb-3">
+        <h2 class="mb-0">Car List</h2>
+        <a class="btn btn-success" asp-page="/Car/Create">➕ Add New Car</a>
+    </div>
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var car in Model.Cars)
+                {
+                    <tr>
+                        <td>@car.Id</td>
+                        <td>@car.Name</td>
+                        <td>@car.MakeId</td>
+                        <td>
+                            <a class="btn btn-sm btn-outline-primary me-1" href="#">Edit</a>
+                            <button class="btn btn-sm btn-outline-success">Details</button>
+                            <button class="btn btn-sm btn-outline-danger">Delete</button>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

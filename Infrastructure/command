@@ -1,0 +1,9 @@
+﻿dotnet ef migrations add Initial --startup-project .\CommitteeMeetings.Host\ --project .\CommitteeMeetings.Infrastructure\ --context CommitteeMeetingsDbContext -o .\Migrations\
+
+dotnet ef database update --startup-project .\CommitteeMeetings.Host\ --project .\CommitteeMeetings.Infrastructure\ --context CommitteeMeetingsDbContext
+
+**Linux
+
+dotnet ef migrations add Initial --startup-project ./CarApp/ --project ./Infrastructure/ --context ApplicationDbContext -o ./Migrations/
+
+dotnet ef database update --startup-project ./CarApp/ --project ./Infrastructure/ --context ApplicationDbContext
