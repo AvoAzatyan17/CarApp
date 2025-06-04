@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cc3ifr9x4m</Fingerprint>
-      <Integrity>lJN5nbtWoca/cAUNwAdaOz93fqgkPdb2eFFQayp94/k=</Integrity>
+      <Fingerprint>7hsmdy9q0z</Fingerprint>
+      <Integrity>qz5NYEqINoNSIfB4KtXBkLR/qLrbioeTwIIK4CWARM0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\CarApp.styles.css'))</OriginalItemSpec>

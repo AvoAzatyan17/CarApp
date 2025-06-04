@@ -46,3 +46,7 @@ main {
 .navbar-toggler-icon {
     filter: invert(1);
 }
+
+.activeBoard{
+    background: #1d5795 !important;
+}
