@@ -29,7 +29,7 @@
                         <td>@mark.Name</td>
                         <td>
                             <a class="btn btn-sm btn-outline-primary me-1" asp-page="/Mark/Edit" asp-route-id="@mark.Id">Edit</a>
-                            <a class="btn btn-sm btn-outline-success">Details</a>
+                            <a class="btn btn-sm btn-outline-success" asp-page="/Mark/Details" asp-route-id="@mark.Id">Details</a>
                             <button class="btn btn-danger btn-sm" data-bs-toggle="modal"
                                     data-bs-target="#deleteModal-@mark.Id">
                                 Delete

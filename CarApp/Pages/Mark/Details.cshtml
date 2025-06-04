@@ -1,0 +1,20 @@
+@page
+@model CarApp.Pages.Mark.Details
+
+@{
+    ViewData["Title"] = "Details Mark";
+    Layout = "Shared/_Layout";
+}
+
+<div class="container mt-4">
+    <h2>Mark Details</h2>
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.Mark.Id</dd>
+
+        <dt class="col-sm-2">Name</dt>
+        <dd class="col-sm-10">@Model.Mark.Name</dd>
+    </dl>
+    <a asp-page="/Mark/Index" class="btn btn-secondary">Back to List</a>
+    <a asp-page="/Mark/Edit" asp-route-id="@Model.Mark.Id" class="btn btn-primary ms-2">Edit</a>
+</div>
