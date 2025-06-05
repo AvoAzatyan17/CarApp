@@ -7,20 +7,19 @@
 }
 <div class="container mt-4">
     <h2 class="mb-4">Add New Car</h2>
-
     <form method="post" asp-page-handler="Create">
         <div class="mb-3">
             <label for="Name" class="form-label">Car Name</label>
-            <input type="text" id="Name" name="Mark.Name" class="form-control" placeholder="Enter car name" required />
+            <input type="text" id="Name" name="Car.Name" class="form-control" placeholder="Enter car name" required />
         </div>
         <div class="mb-3">
             <label for="MarkId" class="form-label">Car Mark</label>
-            <select id="MarkId" class="form-select my-select2-car-mark" name="MarkId" required>
+            <select id="MarkId" class="form-select my-select2-car-mark" name="Car.MarkId" required>
                 <option value="">Select a mark</option>
-                <option value="AL">Alabama</option>
-                <option value="CA">California</option>
-                <option value="NY">New York</option>
-                <option value="TX">Texas</option>
+                @foreach (var mark in Model.Marks)
+                {
+                    <option value="@mark.Id">@mark.Name</option>
+                }
             </select>
         </div>
         <div class="d-flex">

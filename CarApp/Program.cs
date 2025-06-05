@@ -1,4 +1,6 @@
+using Domain.Interface;
 using Infrastructure;
+using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +15,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddScoped<IApplicationDbContext>(provider =>
     provider.GetService<ApplicationDbContext>());
+builder.Services.AddScoped<ICarRepository, CarRepository>();
 
 var app = builder.Build();
 

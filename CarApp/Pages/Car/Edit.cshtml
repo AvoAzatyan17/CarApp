@@ -1,0 +1,29 @@
+@page
+@model CarApp.Pages.Car.Edit
+
+@{
+    ViewData["Title"] = "Edit Car";
+    Layout = "Shared/_Layout";
+}
+<div class="container mt-5">
+    <h2>Edit Car</h2>
+    <form method="post">
+        <input type="hidden" asp-for="Car.Id" />
+        <div class="mb-3">
+            <label asp-for="Car.Name" class="form-label"></label>
+            <input asp-for="Car.Name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label for="MarkId" class="form-label">Car Mark</label>
+            <select id="MarkId" class="form-select my-select2-car-mark" name="Car.MarkId" required>
+                @foreach (var mark in Model.Marks)
+                {
+                    var selected = mark.Id == Model.Car.MarkId;
+                    <option selected="@selected" value="@mark.Id">@mark.Name</option>
+                }
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-page="/Car/Index" class="btn btn-secondary ms-2">Cancel</a>
+    </form>
+</div>

@@ -32,6 +32,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FyL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/user/IntershipCSharp/CarApp/CarApp/Pages/Car/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FyL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/user/IntershipCSharp/CarApp/CarApp/Pages/Car/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/user/IntershipCSharp/CarApp/CarApp/Pages/Car/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FyL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

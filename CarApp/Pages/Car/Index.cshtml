@@ -20,6 +20,7 @@
                     <th scope="col">#</th>
                     <th scope="col">Name</th>
                     <th scope="col">Mark</th>
+                    <th scope="col">CreateBy</th>
                     <th scope="col">Actions</th>
                 </tr>
                 </thead>
@@ -29,7 +30,12 @@
                     <tr>
                         <td>@car.Id</td>
                         <td>@car.Name</td>
-                        <td>@car.Mark.Name</td>
+                        <td>
+                            <a asp-page="/Mark/Details" asp-route-id="@car.Mark.Id">
+                                @car.Mark?.Name
+                            </a>
+                        </td>
+                        <td>@car.CreatedBy</td>
                         <td>
                             <a class="btn btn-sm btn-outline-primary me-1" asp-page="/Car/Edit" asp-route-id="@car.Id">Edit</a>
                             <a class="btn btn-sm btn-outline-success" asp-page="/Car/Details" asp-route-id="@car.Id">Details</a>
