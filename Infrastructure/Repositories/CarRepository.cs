@@ -19,4 +19,17 @@ public class CarRepository: ICarRepository
             .Include(c => c.Mark)
             .ToListAsync();
     }
+
+    public async Task<bool> SoftDeleteAsync(Guid id)
+    {
+        var car = await _context.Cars.FindAsync(id);
+        if (car == null)
+        {
+            return false;
+        }
+        car.IsDeleted = true;
+        _context.Cars.Update(car);
+        await _context.SaveChangesAsync();
+        return true;
+    }
 }
