@@ -403,7 +403,6 @@
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/scopedcss/bundle/CarApp.styles.css
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/scopedcss/projectbundle/CarApp.bundle.scp.css
-/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-cc3ifr9x4m.gz
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ojahjjzzan-lugek5hnai.gz
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/2m5mfid5nj-61n19gt1b8.gz
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/eecoox518e-fr7q2aak1r.gz
@@ -483,3 +482,4 @@
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/CarApp.pdb
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/CarApp.genruntimeconfig.cache
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/ref/CarApp.dll
+/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-7hsmdy9q0z.gz

@@ -33,7 +33,6 @@ namespace Infrastructure.Migrations
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     Name = table.Column<string>(type: "character varying(30)", maxLength: 30, nullable: false),
-                    MakeId = table.Column<Guid>(type: "uuid", nullable: false),
                     MarkId = table.Column<Guid>(type: "uuid", nullable: false),
                     IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
                     Created = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),

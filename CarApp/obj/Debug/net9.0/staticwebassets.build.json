@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iN8sH92C269lRFjkz/mPip1sqsv1JzeCk0Kz4AWProc=",
+  "Hash": "vrZLNQ8j9q4JQ7FPM2ludyT5Nw8lldo8tEWXHGo0AOM=",
   "Source": "CarApp",
   "BasePath": "_content/CarApp",
   "Mode": "Default",
@@ -815,12 +815,12 @@
       "OriginalItemSpec": "/home/user/IntershipCSharp/CarApp/CarApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-cc3ifr9x4m.gz",
+      "Identity": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-7hsmdy9q0z.gz",
       "SourceId": "CarApp",
       "SourceType": "Discovered",
       "ContentRoot": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/CarApp",
-      "RelativePath": "css/CarApp.styles#[.{fingerprint=cc3ifr9x4m}]?.css.gz",
+      "RelativePath": "css/CarApp.styles#[.{fingerprint=7hsmdy9q0z}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -829,8 +829,8 @@
       "RelatedAsset": "/home/user/IntershipCSharp/CarApp/CarApp/wwwroot/css/CarApp.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jc62jrxx4c",
-      "Integrity": "oxvjtmrQSgI+uVt4jNH1jDtWjqBnTS9bjNj1u8urRHA=",
+      "Fingerprint": "kuur3xnmwi",
+      "Integrity": "FDRU0Y7UNuKAXi36XSPCgEC7/ATGWpvFt9UfxLqp+38=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/user/IntershipCSharp/CarApp/CarApp/wwwroot/css/CarApp.styles.css"
@@ -1438,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cc3ifr9x4m",
-      "Integrity": "lJN5nbtWoca/cAUNwAdaOz93fqgkPdb2eFFQayp94/k=",
+      "Fingerprint": "7hsmdy9q0z",
+      "Integrity": "qz5NYEqINoNSIfB4KtXBkLR/qLrbioeTwIIK4CWARM0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/CarApp.styles.css"
@@ -3366,13 +3366,13 @@
       ]
     },
     {
-      "Route": "css/CarApp.styles.cc3ifr9x4m.css",
-      "AssetFile": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-cc3ifr9x4m.gz",
+      "Route": "css/CarApp.styles.7hsmdy9q0z.css",
+      "AssetFile": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-7hsmdy9q0z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002564102564"
+          "Quality": "0.002398081535"
         }
       ],
       "ResponseHeaders": [
@@ -3382,15 +3382,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "389"
+          "Value": "416"
         },
         {
           "Name": "ETag",
-          "Value": "\"oxvjtmrQSgI+uVt4jNH1jDtWjqBnTS9bjNj1u8urRHA=\""
+          "Value": "\"FDRU0Y7UNuKAXi36XSPCgEC7/ATGWpvFt9UfxLqp+38=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 19:42:04 GMT"
+          "Value": "Wed, 04 Jun 2025 20:01:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3410,13 +3410,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lJN5nbtWoca/cAUNwAdaOz93fqgkPdb2eFFQayp94/k=\""
+          "Value": "W/\"qz5NYEqINoNSIfB4KtXBkLR/qLrbioeTwIIK4CWARM0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cc3ifr9x4m"
+          "Value": "7hsmdy9q0z"
         },
         {
           "Name": "label",
@@ -3424,12 +3424,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lJN5nbtWoca/cAUNwAdaOz93fqgkPdb2eFFQayp94/k="
+          "Value": "sha256-qz5NYEqINoNSIfB4KtXBkLR/qLrbioeTwIIK4CWARM0="
         }
       ]
     },
     {
-      "Route": "css/CarApp.styles.cc3ifr9x4m.css",
+      "Route": "css/CarApp.styles.7hsmdy9q0z.css",
       "AssetFile": "/home/user/IntershipCSharp/CarApp/CarApp/wwwroot/css/CarApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3439,7 +3439,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "833"
+          "Value": "886"
         },
         {
           "Name": "Content-Type",
@@ -3447,11 +3447,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lJN5nbtWoca/cAUNwAdaOz93fqgkPdb2eFFQayp94/k=\""
+          "Value": "\"qz5NYEqINoNSIfB4KtXBkLR/qLrbioeTwIIK4CWARM0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 19:42:04 GMT"
+          "Value": "Wed, 04 Jun 2025 20:01:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3461,7 +3461,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cc3ifr9x4m"
+          "Value": "7hsmdy9q0z"
         },
         {
           "Name": "label",
@@ -3469,13 +3469,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lJN5nbtWoca/cAUNwAdaOz93fqgkPdb2eFFQayp94/k="
+          "Value": "sha256-qz5NYEqINoNSIfB4KtXBkLR/qLrbioeTwIIK4CWARM0="
         }
       ]
     },
     {
-      "Route": "css/CarApp.styles.cc3ifr9x4m.css.gz",
-      "AssetFile": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-cc3ifr9x4m.gz",
+      "Route": "css/CarApp.styles.7hsmdy9q0z.css.gz",
+      "AssetFile": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-7hsmdy9q0z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3484,7 +3484,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "389"
+          "Value": "416"
         },
         {
           "Name": "Content-Type",
@@ -3492,11 +3492,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oxvjtmrQSgI+uVt4jNH1jDtWjqBnTS9bjNj1u8urRHA=\""
+          "Value": "\"FDRU0Y7UNuKAXi36XSPCgEC7/ATGWpvFt9UfxLqp+38=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 19:42:04 GMT"
+          "Value": "Wed, 04 Jun 2025 20:01:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3514,7 +3514,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cc3ifr9x4m"
+          "Value": "7hsmdy9q0z"
         },
         {
           "Name": "label",
@@ -3522,18 +3522,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oxvjtmrQSgI+uVt4jNH1jDtWjqBnTS9bjNj1u8urRHA="
+          "Value": "sha256-FDRU0Y7UNuKAXi36XSPCgEC7/ATGWpvFt9UfxLqp+38="
         }
       ]
     },
     {
       "Route": "css/CarApp.styles.css",
-      "AssetFile": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-cc3ifr9x4m.gz",
+      "AssetFile": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-7hsmdy9q0z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002564102564"
+          "Quality": "0.002398081535"
         }
       ],
       "ResponseHeaders": [
@@ -3543,15 +3543,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "389"
+          "Value": "416"
         },
         {
           "Name": "ETag",
-          "Value": "\"oxvjtmrQSgI+uVt4jNH1jDtWjqBnTS9bjNj1u8urRHA=\""
+          "Value": "\"FDRU0Y7UNuKAXi36XSPCgEC7/ATGWpvFt9UfxLqp+38=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 19:42:04 GMT"
+          "Value": "Wed, 04 Jun 2025 20:01:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3571,13 +3571,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"lJN5nbtWoca/cAUNwAdaOz93fqgkPdb2eFFQayp94/k=\""
+          "Value": "W/\"qz5NYEqINoNSIfB4KtXBkLR/qLrbioeTwIIK4CWARM0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lJN5nbtWoca/cAUNwAdaOz93fqgkPdb2eFFQayp94/k="
+          "Value": "sha256-qz5NYEqINoNSIfB4KtXBkLR/qLrbioeTwIIK4CWARM0="
         }
       ]
     },
@@ -3592,7 +3592,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "833"
+          "Value": "886"
         },
         {
           "Name": "Content-Type",
@@ -3600,11 +3600,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lJN5nbtWoca/cAUNwAdaOz93fqgkPdb2eFFQayp94/k=\""
+          "Value": "\"qz5NYEqINoNSIfB4KtXBkLR/qLrbioeTwIIK4CWARM0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 19:42:04 GMT"
+          "Value": "Wed, 04 Jun 2025 20:01:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3614,13 +3614,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lJN5nbtWoca/cAUNwAdaOz93fqgkPdb2eFFQayp94/k="
+          "Value": "sha256-qz5NYEqINoNSIfB4KtXBkLR/qLrbioeTwIIK4CWARM0="
         }
       ]
     },
     {
       "Route": "css/CarApp.styles.css.gz",
-      "AssetFile": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-cc3ifr9x4m.gz",
+      "AssetFile": "/home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-7hsmdy9q0z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3629,7 +3629,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "389"
+          "Value": "416"
         },
         {
           "Name": "Content-Type",
@@ -3637,11 +3637,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oxvjtmrQSgI+uVt4jNH1jDtWjqBnTS9bjNj1u8urRHA=\""
+          "Value": "\"FDRU0Y7UNuKAXi36XSPCgEC7/ATGWpvFt9UfxLqp+38=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 19:42:04 GMT"
+          "Value": "Wed, 04 Jun 2025 20:01:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3659,7 +3659,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oxvjtmrQSgI+uVt4jNH1jDtWjqBnTS9bjNj1u8urRHA="
+          "Value": "sha256-FDRU0Y7UNuKAXi36XSPCgEC7/ATGWpvFt9UfxLqp+38="
         }
       ]
     },

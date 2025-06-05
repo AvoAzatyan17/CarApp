@@ -1,4 +1,6 @@
+using Domain.Interface;
 using Infrastructure;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,15 +10,31 @@ public class Index : PageModel
 {
     private readonly ApplicationDbContext _context;
     
-    public Index(ApplicationDbContext context)
+    private readonly ICarRepository _carRepository;
+
+    public Index(ICarRepository carRepository)
     {
-        _context = context;
+        _carRepository = carRepository;
     }
 
     public IList<Domain.Entities.Car> Cars { get; set; }
 
-    public async Task OnGetAsync()
+    public async Task OnGet()
     {
-        Cars = await _context.Cars.ToListAsync();
+        Cars = await _carRepository.GetAllAsync();
+    }
+
+    public async Task<IActionResult> OnPostDelete(Guid id)
+    {
+        var car = await _context.Cars.FindAsync(id);
+        if (car == null)
+        {
+            return NotFound();
+        }
+
+        car.IsDeleted = true;
+        _context.Cars.Update(car);
+        await _context.SaveChangesAsync();
+        return RedirectToPage("/Car/Index");
     }
 }
