@@ -483,3 +483,7 @@
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/CarApp.genruntimeconfig.cache
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/ref/CarApp.dll
 /home/user/IntershipCSharp/CarApp/CarApp/obj/Debug/net9.0/compressed/ic7ptzw813-7hsmdy9q0z.gz
+/home/user/IntershipCSharp/CarApp/CarApp/bin/Debug/net9.0/CommunityToolkit.HighPerformance.dll
+/home/user/IntershipCSharp/CarApp/CarApp/bin/Debug/net9.0/Minio.dll
+/home/user/IntershipCSharp/CarApp/CarApp/bin/Debug/net9.0/System.IO.Hashing.dll
+/home/user/IntershipCSharp/CarApp/CarApp/bin/Debug/net9.0/System.Reactive.dll
