@@ -26,15 +26,11 @@ public class Index : PageModel
 
     public async Task<IActionResult> OnPostDelete(Guid id)
     {
-        var car = await _context.Cars.FindAsync(id);
-        if (car == null)
+        var deleted = await _carRepository.SoftDeleteAsync(id);
+        if (!deleted)
         {
             return NotFound();
         }
-
-        car.IsDeleted = true;
-        _context.Cars.Update(car);
-        await _context.SaveChangesAsync();
         return RedirectToPage("/Car/Index");
     }
 }

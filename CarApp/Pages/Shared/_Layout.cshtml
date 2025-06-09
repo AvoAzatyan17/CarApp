@@ -26,6 +26,25 @@
                 aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="dropdown">
+            <button class="btn btn-transparent dropdown-toggle d-flex align-items-center" type="button"
+                    id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="color: #eefbfd">
+                <span class="me-2">👤</span>
+                <span>User</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                <li>
+                    <a class="dropdown-item d-flex align-items-center" href="/Profile">
+                        <i class="bi bi-person me-2"></i> Profile
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item d-flex align-items-center" href="/Logout">
+                        <i class="bi bi-box-arrow-right me-2"></i> Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 <nav id="sidebarMenu" class="bg-dark">
@@ -71,5 +90,24 @@
     });
 </script>
 @await RenderSectionAsync("Scripts", required: false)
+<script>
+  const imageInput = document.getElementById('imageInput');
+  const preview = document.getElementById('preview');
+
+  imageInput.addEventListener('change', function () {
+    preview.innerHTML = '';
+    Array.from(imageInput.files).forEach(file => {
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        const imgEl = document.createElement('img');
+        imgEl.src = e.target.result;
+        imgEl.style.maxWidth = '100px';
+        imgEl.style.marginRight = '10px';
+        preview.appendChild(imgEl);
+      };
+      reader.readAsDataURL(file);
+    });
+  });
+</script>
 </body>
 </html>

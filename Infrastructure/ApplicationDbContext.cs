@@ -13,6 +13,7 @@ namespace Infrastructure
 
         public DbSet<Car> Cars { get; set; }
         public DbSet<Mark> Marks { get; set; }
+        public DbSet<Image> Image { get; set; }
         
         protected override void OnModelCreating(ModelBuilder builder)
         {

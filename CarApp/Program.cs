@@ -1,7 +1,9 @@
+using CarApp.Options;
 using Domain.Interface;
 using Infrastructure;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Minio;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<IApplicationDbContext>(provider =>
     provider.GetService<ApplicationDbContext>());
 builder.Services.AddScoped<ICarRepository, CarRepository>();
+
+var minioOptions = new MinioOptions();
+builder.Configuration.GetSection(nameof(MinioOptions)).Bind(minioOptions);
+
+builder.Services.AddMinio(configureClient => configureClient
+    .WithEndpoint(minioOptions.Endpoint)
+    .WithSSL(secure: false)
+    .WithCredentials(minioOptions.AccessKey, minioOptions.SecretKey)
+    .Build());
 
 var app = builder.Build();
 
