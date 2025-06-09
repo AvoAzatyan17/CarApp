@@ -29,4 +29,5 @@ public class MinioStorageService
     {
         return $"http://localhost:9000/{BucketName}/{objectName}";
     }
+
 }

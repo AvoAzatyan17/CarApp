@@ -1,13 +1,22 @@
 @page
+@using CarApp.Extensions
 @model CarApp.Pages.Car.Edit
 
 @{
     ViewData["Title"] = "Edit Car";
     Layout = "Shared/_Layout";
 }
+<style>
+    #preview img {
+      width: 150px;
+      margin: 10px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+  </style>
 <div class="container mt-5">
     <h2>Edit Car</h2>
-    <form method="post">
+    <form method="post" enctype="multipart/form-data">
         <input type="hidden" asp-for="Car.Id" />
         <div class="mb-3">
             <label asp-for="Car.Name" class="form-label"></label>
@@ -23,6 +32,15 @@
                 }
             </select>
         </div>
+        @foreach (var img in Model.CarImages)
+        {
+            <img src="@img.ObjectPath.GetStringUrl()" style="max-width: 150px; margin: 5px;" />
+        }
+        <div class="mb-3">
+            <input type="file" id="imageInput" name="UploadedFiles" multiple accept="image/*" style="display: none;" />
+            <button type="button" onclick="document.getElementById('imageInput').click()">Upload Images</button>
+        </div>
+        <div id="preview"></div>
         <button type="submit" class="btn btn-primary">Save</button>
         <a asp-page="/Car/Index" class="btn btn-secondary ms-2">Cancel</a>
     </form>
